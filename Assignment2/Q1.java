@@ -26,7 +26,7 @@ class Car{
     }
 }
 
-class Main{
+class Q1{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         Car c1=new Car();
