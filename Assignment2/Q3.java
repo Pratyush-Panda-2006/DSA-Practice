@@ -57,5 +57,6 @@ class Q3{
             s=s+b3[k].totalAmount;
         }
         System.out.println("total is "+s);
+        sc.close();
     }
 }
