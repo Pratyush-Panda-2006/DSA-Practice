@@ -37,7 +37,7 @@ class Circle extends Shape{
     }
     
     void Area(){
-        System.out.println("Area of Triangle is "+(Math.PI*r*r*h));
+        System.out.println("Area of cirlce is "+(Math.PI*r*r*h));
     }
 }
 
