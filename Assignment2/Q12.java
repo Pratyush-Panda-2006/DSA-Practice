@@ -13,7 +13,7 @@ class Employee extends Person {
     double salary;
 
     Employee(String name, int age, int eid, double salary) {
-        super(name, age); // Calls Person constructor
+        super(name, age); 
         this.eid = eid;
         this.salary = salary;
     }
