@@ -10,10 +10,7 @@
 // • Include a department field, which should be initialized in the constructor. 
 // • Implement a method displayManagerDetails() that calls the displayEmployeeInfo() method from the 
 // Employee class (using super) to display the employee's information and also displays the department 
-// of the manager. 
-// Write a program to: 
-// 1. Create an object of Manager and initialize its name, salary, and department. 
-// 2. Call the displayManagerDetails() method to display the details of the manager. 
+// of the manager.
 
 
 class Employee{
