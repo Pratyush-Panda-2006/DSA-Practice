@@ -11,7 +11,7 @@
 
 class Vehicle {
     String model;
-    int year;
+    int year; 
 
     Vehicle(String model, int year) {
         this.model = model;
