@@ -32,7 +32,7 @@ class Bank {
     }
 }
 
-public class BankTest {
+public class Q13 {
     public static void main(String[] args) {
         Bank[] banks = new Bank[5];
         String[] names = {"SBI", "HDFC", "ICICI", "Axis", "PNB"};
