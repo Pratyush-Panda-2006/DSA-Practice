@@ -4,8 +4,6 @@ class MarksOutOfBoundException extends Exception{
     }
 
 }
-
-
 class Student{
     int m;
     String n;
