@@ -8,7 +8,7 @@ class Student{
     int m;
     String n;
 
-    public Student(int m, String n) {
+    Student(int m, String n) {
         this.m = m;
         this.n = n;
     }

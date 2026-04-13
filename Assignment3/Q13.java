@@ -1,8 +1,12 @@
 public class Q13 {
-    public static void toBinary(int n) {
-        if (n > 0) {
-            toBinary(n / 2);
-            System.out.print(n % 2);
-        }
+    static void toBinary(int n) {
+        if (n==0){
+            return;
+        } 
+        toBinary(n/2);
+        System.out.print(n % 2);
+    }
+    public static void main(String[] args) {
+        toBinary(54);
     }
 }
