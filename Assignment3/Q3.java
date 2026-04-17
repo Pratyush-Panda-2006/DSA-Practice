@@ -2,17 +2,14 @@ class MarksOutOfBoundException extends Exception{
     MarksOutOfBoundException(String s){
         super(s);
     }
-
 }
 class Student{
     int m;
     String n;
-
     Student(int m, String n) {
         this.m = m;
         this.n = n;
     }
-
     void disp(){
         System.out.println("Name is "+n+" mark is "+m);
     }
