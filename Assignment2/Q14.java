@@ -16,12 +16,12 @@ class Measurement extends Distance {
     double centimetres;
 
     Measurement(int feet, int inches, double centimetres) {
-        super(feet, inches); // Initialize base class fields
+        super(feet, inches); 
         this.centimetres = centimetres;
     }
 
     void displayMeasurement() {
-        super.displayDistance(); // Call base class method
+        super.displayDistance(); 
         System.out.println(" (equal to " + centimetres + " cm)");
     }
 }

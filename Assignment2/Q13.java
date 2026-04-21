@@ -1,7 +1,7 @@
 class Bank {
     String bankName;
     double depositAmount;
-    static double totalAmount = 0; // Class variable
+    static double totalAmount = 0; 
 
     void setBankName(String name) {
         this.bankName = name;
@@ -20,7 +20,6 @@ class Bank {
         System.out.println("Bank: " + bankName + " | Deposit: " + depositAmount);
     }
 
-    // Method to find the bank with the minimum deposit
     static void findMinDepositBank(Bank[] banks) {
         Bank minBank = banks[0];
         for (int i = 1; i < banks.length; i++) {
