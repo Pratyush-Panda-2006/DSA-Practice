@@ -37,7 +37,7 @@ public class Q11 {
             }
         }
 
-        System.out.println("\n--- Student with Highest Marks ---");
+        System.out.println("Student with Highest Marks");
         s[maxIndex].showdata();
     }
 }
